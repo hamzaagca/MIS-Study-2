@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(127, 128, 99);">
+    
+    <h1 style="color: rgb(67, 0, 250);">Personality Test</h1>
+    <p>Today, in this test, I will ask you a few questions and make a personality analysis based on your answers. The results will be sent via email. </p>
+    <form action="deneme" method="post">
+    Enter your name <br>
+    <input type="text"> <br>
+    Enter Your Surname <br>
+     <input type="text" name="Surname"> <br> <br>
+     Enter Your Email <br>
+     <input type="email" name="mail"><br>
+    Create a password  <br> 
+    <input type="password" name="sifre"> <br> <br>
+    Select your gender; <br>
+    <input type="radio" name="gender">Female <br>
+    <input type="radio" name="gender">Male <br> <br>
+     Choose The One You Spend The Most Time On <br>
+    <input type="radio" name="sosyal"><img src="Youtube.png.png" alt="Youtubelogo" width="50"><br>
+    <input type="radio" name="sosyal"><img src="Twitter.png.png" alt="TwitterLogo" width="50"><br>
+    <input type="radio" name="sosyal"> <img src="Instagram.jpg.jpg" alt="InstagramLogo" width="50"><br><br>
+    Enter Your Birthday <br>
+    <input type="date" name="Bdate"> <br> <br>
+    <textarea name="textarea" id="deneme" rows="10" cols="30">Please Describe Your Dream Job</textarea> <br> <br>
+    Please check the boxes for the items you have. If you don’t have any, you can leave them all blank. (You may select more than one) <br> 
+    <input type="checkbox" name="deneme" id="ada">I have a Car <br>
+    <input type="checkbox">I have a Motorcycle <br>
+    <input type="checkbox">I have a bike <br> <br> 
+    Please select your favorite color <br>
+<input type="color" id="favorite color" name="favcolor" value="#7CFC00"> <br>
+choose a Number Between 1 and 10 <br>
+<input type="number" min="1" max="10"> <br> <br>
+That's all. Thank you for participating. Use the buttons below to submit or reset your answers. <br>
+<div style="display: flex; align-items: center; gap: 10px;">
+    <input type="image" src="Sentbro.png" style=" width:100px; height:100px;">
+    <input type="reset" style="height: 50px; padding: 0 10px;">
+</div>
+    </form>
+</body>
+</html>
